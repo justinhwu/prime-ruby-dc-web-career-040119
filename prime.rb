@@ -9,6 +9,7 @@ def prime?(num)
       if (num%divider==0)
         return false
       end
+    end
     else 
       return true
     end
