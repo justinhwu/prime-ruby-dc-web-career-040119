@@ -4,6 +4,6 @@ def prime?(num)
     return true
     elsif num < 1
     return false
-    elsif 
+  else
   end
 end
