@@ -5,7 +5,7 @@ def prime?(num)
     return true
     elsif (Prime.num==true)
     return true
-    elsif (num.prime==false)
+    elsif (Prime.num==false)
     return false
   end
 end
