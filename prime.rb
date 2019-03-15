@@ -5,6 +5,7 @@ def prime?(num)
     elsif num < 1
     return false
   else
-    (2..num-1).each do 
+    (2..num-1).each do |divider|
+      if (num%divider==0)
   end
 end
