@@ -7,6 +7,8 @@ def prime?(num)
   else
     (2..num-1).each do |divider|
       if (num%divider==0)
-        return 
+        return false
+      end
+    end
   end
 end
