@@ -3,5 +3,5 @@
 def prime?(num)
   if num == 1
     return true
-    elsif 
+    elsif ()
 end
