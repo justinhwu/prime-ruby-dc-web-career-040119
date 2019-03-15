@@ -5,6 +5,6 @@ def prime?(num)
     elsif num < 1
     return false
   else
-    
+    (2..num-1).each do 
   end
 end
