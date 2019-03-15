@@ -3,5 +3,9 @@ require 'prime'
 def prime?(num)
   if num == 1
     return true
-    elsif (num.prime)
+    elsif (num.prime==true)
+    return true
+    elsif (num.prime==false)
+    return false
+  end
 end
